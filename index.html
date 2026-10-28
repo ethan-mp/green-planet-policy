@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>초록별냉장고 | 공식 정책 및 약관 안내</title>
+  <style>
+    :root {
+      --primary: #059669;
+      --primary-light: #ecfdf5;
+      --text-main: #1e293b;
+      --text-muted: #64748b;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --border: #e2e8f0;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text-main: #f1f5f9;
+        --text-muted: #94a3b8;
+        --bg: #0f172a;
+        --card-bg: #1e293b;
+        --border: #334155;
+      }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple SD Gothic Neo", sans-serif;
+      background-color: var(--bg);
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .card {
+      max-width: 520px;
+      width: 100%;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 40px 32px;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+      text-align: center;
+    }
+    .logo-badge {
+      font-size: 48px;
+      margin-bottom: 16px;
+      display: inline-block;
+    }
+    h1 {
+      font-size: 24px;
+      font-weight: 800;
+      color: var(--text-main);
+      margin-bottom: 8px;
+    }
+    p.desc {
+      color: var(--text-muted);
+      font-size: 15px;
+      line-height: 1.6;
+      margin-bottom: 32px;
+    }
+    .link-group {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .btn-link {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 20px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background-color: var(--card-bg);
+      color: var(--text-main);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 15px;
+      transition: all 0.2s ease;
+    }
+    .btn-link:hover {
+      background-color: var(--primary-light);
+      border-color: var(--primary);
+      color: var(--primary);
+      transform: translateY(-1px);
+    }
+    .footer {
+      margin-top: 32px;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo-badge">🌍❄️</div>
+    <h1>초록별냉장고 (Chorokbyeol Fridge)</h1>
+    <p class="desc">
+      지속 가능한 지구와 신선한 식탁을 위한 스마트 식재료 관리 앱<br>
+      공식 정책 및 서비스 이용약관 안내 허브입니다.
+    </p>
+
+    <div class="link-group">
+      <a href="./privacy-policy.html" class="btn-link">
+        <span>📄 개인정보 처리방침 (Privacy Policy)</span>
+        <span>→</span>
+      </a>
+      <a href="./terms-of-service.html" class="btn-link">
+        <span>📋 서비스 이용약관 (Terms of Service)</span>
+        <span>→</span>
+      </a>
+    </div>
+
+    <div class="footer">
+      © 2026 초록별냉장고 (Chorokbyeol Fridge). All rights reserved.<br>
+      문의: ethan.mp.vibe@gmail.com
+    </div>
+  </div>
+</body>
+</html>
+

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>개인정보 처리방침 | 초록별냉장고</title>
+  <style>
+    :root {
+      --primary: #059669;
+      --primary-light: #ecfdf5;
+      --text-main: #1e293b;
+      --text-muted: #64748b;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --border: #e2e8f0;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text-main: #f1f5f9;
+        --text-muted: #94a3b8;
+        --bg: #0f172a;
+        --card-bg: #1e293b;
+        --border: #334155;
+      }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple SD Gothic Neo", sans-serif;
+      background-color: var(--bg);
+      color: var(--text-main);
+      line-height: 1.7;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 40px 32px;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    }
+    .badge {
+      display: inline-block;
+      background: var(--primary-light);
+      color: var(--primary);
+      font-size: 13px;
+      font-weight: 700;
+      padding: 4px 12px;
+      border-radius: 9999px;
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-size: 28px;
+      font-weight: 800;
+      color: var(--primary);
+      margin-bottom: 8px;
+    }
+    .meta {
+      color: var(--text-muted);
+      font-size: 14px;
+      margin-bottom: 24px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 16px;
+    }
+    h2 {
+      font-size: 20px;
+      font-weight: 700;
+      margin-top: 32px;
+      margin-bottom: 12px;
+      color: var(--text-main);
+      border-left: 4px solid var(--primary);
+      padding-left: 10px;
+    }
+    h3 {
+      font-size: 16px;
+      font-weight: 600;
+      margin-top: 16px;
+      margin-bottom: 8px;
+    }
+    p, li {
+      font-size: 15px;
+      color: var(--text-main);
+      margin-bottom: 12px;
+    }
+    ul, ol {
+      padding-left: 20px;
+      margin-bottom: 16px;
+    }
+    li { margin-bottom: 6px; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 14px;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 10px 14px;
+      text-align: left;
+    }
+    th {
+      background-color: var(--primary-light);
+      color: var(--primary);
+      font-weight: 700;
+    }
+    .contact-box {
+      background-color: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      margin-top: 24px;
+    }
+    .footer-nav {
+      margin-top: 32px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+    }
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <span class="badge">초록별냉장고 공식 정책</span>
+    <h1>개인정보 처리방침 (Privacy Policy)</h1>
+    <div class="meta">
+      서비스명: <strong>초록별냉장고 (Chorokbyeol Fridge)</strong> | 시행일자: 2026년 10월 28일
+    </div>
+
+    <p><strong>초록별냉장고</strong>(이하 "서비스")는 이용자의 개인정보를 소중하게 생각하며, 「개인정보 보호법」 및 관계 법령을 준수합니다. 본 방침은 서비스가 수집하는 개인정보 항목, 수집 목적, 보유 기간, 파기 절차 및 이용자의 권리 행사 방법을 안내합니다.</p>
+
+    <h2>1. 수집하는 개인정보 항목 및 수집 방법</h2>
+    <h3>(1) 수집 항목</h3>
+    <ul>
+      <li><strong>회원 가입 및 로그인</strong>: 이메일 주소, 비밀번호(암호화 일방향 해시 저장), 고유 사용자 식별자(User UID)</li>
+      <li><strong>식재료 관리 서비스 이용</strong>: 식재료명, 보관 장소(냉장/냉동실 선반 등), 소비기한/유통기한, 수량, 메모, 카테고리</li>
+      <li><strong>식재료 사진(선택)</strong>: 사용자가 카메라로 직접 촬영하거나 갤러리에서 선택하여 업로드한 이미지</li>
+      <li><strong>앱 분석 및 진단 (자동 수집 - Google Analytics for Firebase)</strong>: 기기 모델, OS 버전, 주요 화면 조회, 기능 이용 이벤트 로그, 오류/크래시 진단 데이터 (비식별화된 집계 정보)</li>
+      <li><strong>광고 송출 (자동 수집 - Google AdMob)</strong>: 기기 광고 식별자(Android GAID, iOS IDFA - 추적 권한 승인 시), 광고 노출 및 클릭 기록</li>
+    </ul>
+
+    <h3>(2) 수집 방법</h3>
+    <p>앱 내 회원가입 및 식재료 등록 시 이용자가 직접 입력하거나, 기능 이용 과정에서 SDK를 통해 자동 수집됩니다.</p>
+
+    <h2>2. 개인정보의 수집 및 이용 목적</h2>
+    <ol>
+      <li><strong>코어 서비스 제공</strong>: 회원 식별, 기기간 식재료 목록 실시간 동기화, 보관 기한 관리</li>
+      <li><strong>소비기한 알림 발송</strong>: 식재료 만료 임박(D-1, D-Day) 시 스마트폰 로컬 푸시 알림 발송</li>
+      <li><strong>서비스 분석 및 고도화</strong>: 앱 사용성 개선, 오류 추적 및 성능 최적화</li>
+      <li><strong>광고 서비스 제공</strong>: 무료 서비스 운영 유지를 위한 Google AdMob 인앱 배너 광고 노출</li>
+    </ol>
+
+    <h2>3. 개인정보의 보유 및 이용 기간</h2>
+    <p>이용자의 개인정보는 <strong>회원 탈퇴 시까지</strong> 보유 및 이용됩니다. 회원이 계정 탈퇴를 요청하는 즉시 회원의 모든 개인정보, 식재료 목록 및 사진 데이터는 <strong>지체 없이 영구 파기</strong>됩니다.</p>
+
+    <h2>4. 개인정보 처리 위탁 및 제3자 제공</h2>
+    <p>서비스는 인프라 운영을 위해 아래 전문 서비스에 데이터 처리를 위탁하고 있습니다.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>수탁 업체</th>
+          <th>위탁 업무 내용</th>
+          <th>보유 및 이용 기간</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Supabase Inc.</strong></td>
+          <td>사용자 인증, 데이터베이스(DB) 및 이미지 스토리지 호스팅</td>
+          <td>회원 탈퇴 시까지</td>
+        </tr>
+        <tr>
+          <td><strong>Google LLC</strong></td>
+          <td>Google Analytics for Firebase (앱 통계 분석)</td>
+          <td>Google 정책 준수 (최대 14개월)</td>
+        </tr>
+        <tr>
+          <td><strong>Google LLC</strong></td>
+          <td>Google AdMob (인앱 배너 광고 송출)</td>
+          <td>Google 정책 준수</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>5. 기기 접근 권한 안내</h2>
+    <ul>
+      <li><strong>카메라</strong>: 식재료 사진을 직접 촬영하여 등록하기 위해 사용 (선택 권한)</li>
+      <li><strong>사진 보관함</strong>: 앨범의 사진을 선택하여 식재료 이미지로 첨부하기 위해 사용 (선택 권한)</li>
+      <li><strong>알림</strong>: 소비기한 임박 및 만료 푸시 알림 수신 (선택 권한)</li>
+      <li><strong>추적 권한 (iOS ATT)</strong>: 맞춤형 광고 제공 및 서비스 개선 분석 (선택 권한)</li>
+    </ul>
+    <p>※ 선택 권한은 허용하지 않아도 기본 냉장고 관리 서비스를 정상 이용하실 수 있습니다.</p>
+
+    <h2>6. 정보주체의 권리 및 행사 방법</h2>
+    <p>이용자는 언제든지 앱 내 <strong>[설정]</strong>에서 본인의 정보를 조회·수정할 수 있으며, <strong>[설정 > 회원 탈퇴]</strong>를 통해 즉시 계정 삭제 및 데이터 파기를 요청할 수 있습니다.</p>
+
+    <div class="contact-box">
+      <h2>7. 개인정보 보호책임자 및 문의처</h2>
+      <p>개인정보와 관련된 문의 사항 및 데이터 삭제 요청은 아래 이메일로 접수해 주시면 신속하게 조치해 드리겠습니다.</p>
+      <p>• <strong>서비스명</strong>: 초록별냉장고 (Chorokbyeol Fridge)</p>
+      <p>• <strong>개발팀</strong>: 초록별 개발팀 (Chorokbyeol Team)</p>
+      <p>• <strong>문의 이메일</strong>: <a href="mailto:ethan.mp.vibe@gmail.com">ethan.mp.vibe@gmail.com</a></p>
+    </div>
+
+    <div class="footer-nav">
+      <a href="./index.html">← 메인 허브로 이동</a>
+      <a href="./terms-of-service.html">서비스 이용약관 보기 →</a>
+    </div>
+  </div>
+</body>
+</html>
+
